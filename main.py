@@ -13,7 +13,7 @@ alphabet_string = string.ascii_lowercase
 numbers = "123456789"
 
 
-for i in range(3):
+for i in range(5):
     AlphaPassPt = random.choice(alphabet_string)
     NumPassPt = random.choice(numbers)
     print(f"{AlphaPassPt}{NumPassPt}", end='')
